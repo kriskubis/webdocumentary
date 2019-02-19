@@ -124,12 +124,11 @@ h3{
     
 }
 
-.arrow_center{
-    width: 8%;
+#first-arrow-figure{
+    width: 2%;
     text-align: center;
     margin: 0 5%;
 }
-
 #experience video{
      width: 65%;
      margin-bottom: 3%;
@@ -275,10 +274,6 @@ footer img{
 
 
 
-
-
-
-
 #experience_h{
     background-image: url(../images/experience.jpg);
     background-attachment: fixed;
@@ -307,4 +302,12 @@ footer img{
     background-image: url(../images/contact.jpg);
     background-attachment: fixed;
     background-size: cover;
+}
+
+.text-pop-up-top {
+    height: auto;
+    margin-top: 1em;
+    padding-top: 1em;
+    -webkit-animation: text-pop-up-top 2.1s linear infinite alternate-reverse forwards;
+    animation: text-pop-up-top 2.1s linear infinite alternate-reverse forwards;
 }
