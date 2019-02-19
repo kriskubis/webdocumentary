@@ -82,16 +82,11 @@ h2{
     margin-bottom: 1%;
 }
 
-.arrow img{
-    float: none;
-    clear: both;
-    width: 2%;
-}
 
 #bio p{
     width: 42%;
     float: left;
-    margin: 3% 0 20% 5%;
+    margin: 3% 0 15% 5%;
 
     
 }
