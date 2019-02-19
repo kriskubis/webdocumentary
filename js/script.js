@@ -9,7 +9,13 @@ window.addEventListener("scroll", function(){
 })
 
 */
+var audio = document.getElementById("song");
+var bio = document.getElementById("bio_h");
 
+if (bio.getBoundingClientRect().top > 405 || bio.getBoundingClientRect().bottom < -51){
+    console.log("Im playing")
+    audio.play();
+}
 
 
 
