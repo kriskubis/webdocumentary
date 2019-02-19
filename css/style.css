@@ -19,6 +19,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -75,7 +78,7 @@ h2{
 
 /*________________________________________________*/
 
-#bio img{
+#bio video{
     float: right;
     width: 40%;
     margin-right: 6%;
@@ -91,16 +94,7 @@ h2{
     
 }
 
-#bio h3{
-    width: 52%;
-    margin: 0 auto;
-    text-align: left;
-    font-size: 2.6em;
-    background-color: white;
-    margin-bottom: -4%;
 
-    
-}
 
 h3{
     clear: both;
@@ -109,11 +103,32 @@ h3{
     font-size: 3.5em;
     text-align: center;
     background-color: #5E1107;
-    padding: 3% 0;
+    padding: 10% 0;
     margin: 2% 0%;
+    background-image: url(../images/experience.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-#experience img{
+#bio h3{
+    width: 52%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 2.6em;
+    background-color: white;
+    margin-bottom: -4%;
+    background-image: none;
+    padding: 5%;
+    
+
+    
+}
+
+.arrow_center{
+    clear: both;
+}
+
+#experience video{
      width: 65%;
      margin-bottom: 3%;
     
@@ -143,8 +158,9 @@ h3{
     
 }
 
-#inspiration img{
+#inspiration video{
     margin-bottom: 3%;
+    width: 60%;
 }
 
    
@@ -165,7 +181,7 @@ h3{
     margin: 3% 0 3% 0;
 }
 
-#reviews img{
+#reviews video{
     float: right;
     width: 30%;
     margin-right: 6%;
@@ -219,6 +235,11 @@ h4{
     width: 10%;
 }
 
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 5%;}
 
 footer{
     height: auto;
@@ -231,4 +252,40 @@ footer{
 footer img{
     width: 7%;
     margin: 0 8%;
+}
+
+
+
+
+
+
+
+#experience_h{
+    background-image: url(../images/experience.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#inspiration_h{
+    background-image: url(../images/inspiration.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#events_h{
+    background-image: url(../images/events.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#review_h{
+    background-image: url(../images/review.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contact_h{
+    background-image: url(../images/contact.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
