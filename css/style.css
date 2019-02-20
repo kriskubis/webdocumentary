@@ -164,7 +164,10 @@ h3{
     width: 60%;
 }
 
-   
+#inspiration_h{
+    color: white;
+}
+
 #left_event{
     width: 50%;
     float: left;
@@ -180,6 +183,10 @@ h3{
 
 #events p{
     margin: 3% 0 3% 0;
+}
+
+#events_h{
+    color: white;
 }
 
 #reviews video{
@@ -296,6 +303,10 @@ footer img{
     background-image: url(../images/review.jpg);
     background-attachment: fixed;
     background-size: cover;
+}
+
+#reviews video{
+    width: 40%;
 }
 
 #contact_h{
