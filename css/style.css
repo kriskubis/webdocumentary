@@ -124,7 +124,7 @@ h3{
     
 }
 
-#first-arrow-figure{
+.first-arrow-figure{
     width: 2%;
     text-align: center;
     margin: 0 5%;
@@ -226,7 +226,7 @@ h4{
 }
 #telephone_paragraph img{
     width: 10%;
-    margin-bottom: 0 auto;
+    margin-bottom: 0;
     clear: both;
 }
 
@@ -299,7 +299,7 @@ footer img{
     background-size: cover;
 }
 
-#text{text-align: center;
+.text{text-align: center;
 font-weight: bold;}
 
 #review_h{
